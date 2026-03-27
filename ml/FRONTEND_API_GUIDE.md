@@ -2,6 +2,19 @@
 
 This guide is only for ML model inference integration.
 
+## 0) Pull the model file (Git LFS)
+
+The model (`cybertwin_model.pkl`) is stored with Git LFS.
+
+Run these once after cloning the repo:
+
+```bash
+git lfs install
+git lfs pull
+```
+
+Verify model file exists beside `api.py` before starting the API.
+
 ## 1) Run the ML API locally
 
 Install dependencies:
