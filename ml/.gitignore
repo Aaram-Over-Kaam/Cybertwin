@@ -1,0 +1,33 @@
+# Python cache/artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Build/test/cache tools
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Local logs
+*.log
+
+# Local training artifacts (generated)
+cybertwin_training_checkpoint.pkl
+cybertwin_training_history.csv
+
+# Model artifact (keep local or use LFS/storage)
+cybertwin_model.pkl
